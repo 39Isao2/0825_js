@@ -28,7 +28,7 @@ function draw() {
 
 ## マウスを使ったインタラクティブな表現
 
-<img src="images/mouse.png" width="600px">
+<img src="images/mouse.png" width="800px">
 
 ```
 function setup() {
