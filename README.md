@@ -4,8 +4,6 @@
 ## まずは円を描いてみましょう。
 <img src="images/circle.png" width="800px">
 
-### ソースコードはこちら
-
 ```
 function setup() {
   // キャンバスのサイズ
@@ -27,8 +25,6 @@ function draw() {
 ## マウスを使ったインタラクティブな表現
 
 <img src="images/mouse.png" width="600px">
-
-### ソースコードはこちら
 
 ```
 function setup() {
