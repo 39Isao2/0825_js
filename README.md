@@ -2,9 +2,11 @@
 エディターはこちら https://editor.p5js.org/
 
 ## まずは円を描いてみましょう。
-<img src="images/circle.png" width="600px">
+<img src="images/circle.png" width="800px">
 <br>
 ソースコードはこちら
+<br>
+
 ```
 function setup() {
   // キャンバスのサイズ
@@ -22,6 +24,7 @@ function draw() {
   circle(200,200,100);
 }
 ```
+
 ### 色の指定方法
 fill();のカッコの中に0~255の3つの数字を入れる。
 <br>
