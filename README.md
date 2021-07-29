@@ -3,7 +3,8 @@
 
 ## まずは円を描いてみましょう。
 <img src="images/circle.png" width="600px">
-
+<br>
+ソースコードはこちら
 ```
 function setup() {
   // キャンバスのサイズ
@@ -21,4 +22,9 @@ function draw() {
   circle(200,200,100);
 }
 ```
+### 色の指定方法
+fill();のカッコの中に0~255の3つの数字を入れる。
+<br>
+<img src="images/color.png" width="600px">
+
 
