@@ -26,6 +26,26 @@ function draw() {
 <br>
 <br>
 
+### 色の指定方法
+fill();のカッコの中に0~255の3つの数字を入れる。
+<br>
+<img src="images/colors.png" width="600px">
+
+```
+例 
+
+赤 fill(255,0,0);
+緑 fill(0,255,0);
+青 fill(0,0,255);
+
+黄色 fill(255,255,0);
+
+```
+
+<br>
+<br>
+
+
 ## マウスを使ったインタラクティブな表現
 
 <img src="images/mouse.png" width="800px">
@@ -181,21 +201,3 @@ function draw(){
 ```
 
 
-
-
-
-### 色の指定方法
-fill();のカッコの中に0~255の3つの数字を入れる。
-<br>
-<img src="images/colors.png" width="600px">
-
-```
-例 
-
-赤 fill(255,0,0);
-緑 fill(0,255,0);
-青 fill(0,0,255);
-
-黄色fill(255,255,0);
-
-```
