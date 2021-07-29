@@ -1,7 +1,7 @@
 # p5.jsで初めてのプログラミング体験
 エディターはこちら https://editor.p5js.org/
 
-# まずは円を描いてみましょう。
+## まずは円を描いてみましょう。
 <img src="images/circle.png" width="600px">
 
 ```
