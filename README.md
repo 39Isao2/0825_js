@@ -59,6 +59,9 @@ drawは1秒間に60回実行されます。
 <br>
 
 ## 変数を使ったアニメーション
+変数とは値をいれる箱のこと。ひとまず「pcのフォルダにデータを入れる、上書き保存も可能」というような理解でOKです。<br>
+C言語やJavaScript、ほぼ全てのプログラム言語で利用する重要な概念です。
+
 
 <img src="images/let.png" width="800px">
 
@@ -93,6 +96,7 @@ function draw(){
 <br>
 
 ## アニメーションにif文を使ってみる
+if文は「もし〜だったらこういう処理をする」といったように使用する条件分岐に使う命令分です。
 
 ```
 
@@ -127,6 +131,53 @@ function draw(){
   
 }
 
+```
+
+<br>
+<br>
+
+## よりジェネラティブな表現に挑戦してみよう！
+今までの知識と、三角形を描く命令、triangle()を使って、すりガラスのような表現を作ってみましょう。<br>
+（少し難しいかも）<br>
+
+<img src="traiangle.png" width="600px">
+
+```
+triangle(1番目の点のx座標, 1番目の点のy座標, 2番目の点のx座標, 2番目の点のy座標, 3番目の点のx座標, 3番目の点のy座標);
+
+例: triangle(100,100, 100,200, 200, 100);
+```
+
+
+```
+function setup(){
+  createCanvas(1000,1000);
+  background(0);
+  
+  // 図形の周りの線を無し
+  noStroke();
+}
+
+function draw(){
+  
+  // ランダムな色、透明度に
+  fill(random(255),random(255),random(255),random(255));
+  
+  // 三角形の頂点1
+  let x1 = mouseX + random(-100,100);
+  let y1 = mouseY + random(-100,100);
+  
+  // 三角形の頂点2
+  let x2 = mouseX + random(-100,100);
+  let y2 = mouseY + random(-100,100);
+  
+  // 三角形の頂点3
+  let x3 = mouseX + random(-100,100);
+  let y3 = mouseY + random(-100,100);
+  
+  // 三角形の描画
+  triangle(x1,y1,x2,y2,x3,y3);
+}
 ```
 
 
