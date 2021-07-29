@@ -94,6 +94,41 @@ function draw(){
 
 ## アニメーションにif文を使ってみる
 
+```
+
+// 変数の宣言
+// let 変数名 = 値;
+
+let posX = 100;
+
+function setup(){
+  createCanvas(400,400);
+  
+}
+
+function draw(){
+  
+  // 白で再度塗りつぶす
+  background(255,255,255);
+  
+  // 青色に
+  fill(0,0,255);
+  
+  // posXの場所に円描く
+  circle(posX,200,50);
+  
+  // posXの値の更新
+  posX = posX + 2;
+  
+  // posXの値が400を超えたら再度0に戻す
+  if(posX > 400){
+    posX = 0;
+  }
+  
+}
+
+```
+
 
 
 
