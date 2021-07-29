@@ -28,6 +28,6 @@ function draw() {
 ### 色の指定方法
 fill();のカッコの中に0~255の3つの数字を入れる。
 <br>
-<img src="images/color.png" width="600px">
+<img src="images/colors.png" width="600px">
 
 
