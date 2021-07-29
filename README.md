@@ -1,5 +1,7 @@
 # p5.jsで初めてのプログラミング体験
 エディターはこちら https://editor.p5js.org/
+<br>
+<br>
 
 ## まずは円を描いてみましょう。
 <img src="images/circle.png" width="800px">
@@ -21,6 +23,8 @@ function draw() {
   circle(200,200,100);
 }
 ```
+<br>
+<br>
 
 ## マウスを使ったインタラクティブな表現
 
