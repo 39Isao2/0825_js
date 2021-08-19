@@ -114,7 +114,7 @@ function draw() {
 // 変数の宣言
 // let 変数名 = 値;
 
-let posX = 100;
+let posX = 0;
 
 function setup(){
   createCanvas(400,400);
