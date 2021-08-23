@@ -15,7 +15,7 @@ function setup() {
 function draw() {
   
   // 背景色 0は黒
-  background(0);
+  background(0,0,0);
   
   fill(255,255,0);
   
